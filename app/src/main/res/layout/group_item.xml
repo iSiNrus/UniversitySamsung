@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_size"
+    android:padding="@dimen/spacing_normal_16"
+    android:background="@drawable/item_border"
+    android:layout_margin="3dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_normal_16"
+        android:layout_marginRight="@dimen/spacing_normal_16"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#000"
+        android:textSize="18sp"
+        tools:text="Название группы" />
+
+    <TextView
+        android:id="@+id/tv_speciality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_group_name"
+        android:layout_marginLeft="@dimen/spacing_normal_16"
+        android:layout_marginRight="@dimen/spacing_normal_16"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#000"
+        android:textSize="12sp"
+        tools:text="Направление подготовки" />
+
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+#Sat Aug 22 18:20:41 SAMT 2020
+base.0=C\:\\Users\\Barsik\\Desktop\\UniversitySamsung\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

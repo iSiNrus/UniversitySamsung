@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.mitryashkin.universitysamsung"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:5:5-36:19
+12        android:allowBackup="true"
+12-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/Theme.AppCompat.NoActionBar" >
+19-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:11:9-59
+20        <activity android:name="ru.mitryashkin.universitysamsung.Activities.MainActivity" >
+20-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:13:9-19:20
+20-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:13:19-58
+21            <intent-filter>
+21-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:14:13-18:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:15:17-69
+22-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:15:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:17:17-77
+24-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:17:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity android:name="ru.mitryashkin.universitysamsung.Activities.StudentsActivity" />
+27-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:21:9-65
+27-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:21:19-62
+28        <activity android:name="ru.mitryashkin.universitysamsung.Activities.TeachersActivity" />
+28-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:22:9-65
+28-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:22:19-62
+29        <activity android:name="ru.mitryashkin.universitysamsung.Activities.GroupsActivity" />
+29-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:23:9-62
+29-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:23:19-60
+30        <activity
+30-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:25:9-27:73
+31            android:name="ru.mitryashkin.universitysamsung.Activities.AddEditTeacherActivity"
+31-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:26:13-62
+32            android:parentActivityName="ru.mitryashkin.universitysamsung.Activities.TeachersActivity" />
+32-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:27:13-70
+33        <activity
+33-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:29:9-31:71
+34            android:name="ru.mitryashkin.universitysamsung.Activities.AddEditGroupActivity"
+34-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:30:13-60
+35            android:parentActivityName="ru.mitryashkin.universitysamsung.Activities.GroupsActivity" />
+35-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:31:13-68
+36        <activity
+36-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:33:9-35:73
+37            android:name="ru.mitryashkin.universitysamsung.Activities.AddEditStudentActivity"
+37-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:34:13-62
+38            android:parentActivityName="ru.mitryashkin.universitysamsung.Activities.StudentsActivity" />
+38-->C:\Users\Barsik\Desktop\UniversitySamsung\app\src\main\AndroidManifest.xml:35:13-70
+39
+40        <service
+40-->[androidx.room:room-runtime:2.2.5] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+41            android:name="androidx.room.MultiInstanceInvalidationService"
+41-->[androidx.room:room-runtime:2.2.5] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+42            android:directBootAware="true"
+42-->[androidx.room:room-runtime:2.2.5] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+43            android:exported="false" />
+43-->[androidx.room:room-runtime:2.2.5] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+44
+45        <provider
+45-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+46            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+47            android:authorities="ru.mitryashkin.universitysamsung.lifecycle-process"
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+48            android:exported="false"
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+49            android:multiprocess="true" />
+49-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Barsik\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+50    </application>
+51
+52</manifest>
