@@ -40,16 +40,16 @@ public abstract class UniversityDatabase extends RoomDatabase {
     public static synchronized UniversityDatabase getInstance(Context context){
         if(instance == null)
         {
-//            instance = Room.databaseBuilder(context.getApplicationContext(),
-//                    UniversityDatabase.class,
-//                    DB_name)
-//                    .allowMainThreadQueries()
-//                    .build();
-            instance = Room.inMemoryDatabaseBuilder(context.getApplicationContext(),
-                    UniversityDatabase.class)
-                    .addCallback(roomCallback)
+            instance = Room.databaseBuilder(context.getApplicationContext(),
+                    UniversityDatabase.class,
+                    DB_name)
                     .allowMainThreadQueries()
                     .build();
+//            instance = Room.inMemoryDatabaseBuilder(context.getApplicationContext(),
+//                    UniversityDatabase.class)
+//                    .addCallback(roomCallback)
+//                    .allowMainThreadQueries()
+//                    .build();
         }
         return instance;
     }
